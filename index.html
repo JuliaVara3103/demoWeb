@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 5: Formularis</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <!--Formularios(form:get)-->
+        <section><form action="./FormulariEnviat.html" method="get">
+            <!--Required: hace que sea obligatorio rellenar ese campo-->
+            <!--placeholder: Mostrar en la caja de texto una pista de lo que tienes que escribir-->
+            <label for="idNom"Nom:></label>
+            Nom:<input type="text" name="nom" required placeholder="antonio"><br>
+            Nom:<input type="text" name="nom" required placeholder="melano"><br>
+            Cognom:<input type="text" name="cognom"><br>
+            <!--Contraseña(input:password)--> Contrasenya:<input type="password" name="contrasenya" > <br>
+            Correu: <input type="email" name="correu"><br>
+           <!--Para subir un archivo al formulario y despues enviarlo--> Fitxer: <input type="file" name="fitxer"><br>
+           Telefon: <input type="tel" name="num telefon"><br>
+           Fecha: <input type="date" name="fecha"><br>
+           Web: <input type="url" name="url web"><br>
+           Numero: <input type="number" name="numero"><br>
+           Rango: <input type="range" name="rango"><br>
+           <!--Hacer checkbox multiples selecciones-->
+           ASIX1: <input type="checkbox" name="asix1"><br>
+           ASIX2: <input type="checkbox" name="asix2"><br>
+           <!--Hacer checkbox pero solo puedes seleccionar una opción-->
+           ASIX: <input type="radio" name="curs"> DAM: <input type="radio" name="curs"><br>
+           <!--Elejir entre diferentes opciones(primero select y despues option con cada opcion que quiras poner)-->
+           <select name="ciutat">
+            <option value="Barcelona">Barcelona</option>
+            <option value="Parets">Parets</option>
+            <option value="Granollers">Granollers</option></select>
+
+            
+        <!--Hacer un boton para cuando envias un formulario(input:submit)--><br><input type="submit" value="Enviar Formulari">
+        </form></section>
+    </main>
+    <footer></footer>
+
+</body>
+</html>
